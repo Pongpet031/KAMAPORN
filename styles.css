@@ -1,0 +1,83 @@
+body {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 300;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* ปรับรูปภาพ */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* ทำให้รูปภาพเป็นวงกลม */
+    margin: auto;
+    display: block;
+    border: 3px solid #ddd;
+    /* เพิ่มเส้นขอบสีเทาอ่อน */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงาเล็กน้อย */
+}
+
+p {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 400;
+    /* Light */
+    text-align: center;
+    color: #666;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 400;
+    /* Light */
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 500;
+    /* Light */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
